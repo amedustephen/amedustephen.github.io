@@ -1,422 +1,172 @@
 <!DOCTYPE html>
-<html lang='en'>
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Amedu Stephen - Tech Advisor | Data Analytics Consultant | Software Product Leader</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <meta name="keywords" content="Web App Development, Ruby On Rails, Power BI Training, Product Management">
-        <meta name="description" content="Portfolio website for Amedu Paul Stephen">
-
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
-    </head>
-
-    <body>
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Amedu Stephen</a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavid" aria-controls="collapsibleNavid" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fa fa-align-right"></i></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavid">
-                    <ul class="nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-             
-        <section class="about-section container text-center" id="about">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-6 col-12">
-                  <div class="pray">
-                    <img src="img/profile-pic.jpg" alt="Profile Picture" class="" />
-                  </div>
-                </div>
-                <div class="col-md-6 col-12">
-                  <div class="panel">
-                    Hello! My name is
-                    <h1>Amedu Paul Stephen</h1>
-                    Tech Advisor | Data Analytics Consultant | Software Product Management
-                    <p class="pt-2">
-                        I am passionate about creating meaningful impact through digital innovation, modernization and capability building. 
-                    </p>
-                    <p class="pt-2">
-                        With my 25+ year experience across industries spanning Manufacturing & Distribution, 
-                        Banking & Finance, Oil & Gas, Telecommunications and Startups, and in a wide range of disciplines 
-                        including Software Development, Project Management, Data Analytics and IT service management, 
-                        I have gained unique insights into the product lifecycle and what it means to deliver innovation 
-                        at pace while balancing user needs and business outcomes.                    
-                    </p>
-                    <p class="pt-2">
-                        I love leading and empowering teams to build great products, from hiring to coaching to figuring 
-                        out systems and practices that can deliver high quality at scale. I also value coding 
-                        as a craft, and as a generalist, able to wear many hats, I don't mind rolling up my sleeves 
-                        and getting things done.                    
-                    </p>
-                    <p class="pt-2">
-                        If you are looking for an seasoned professional that you can trust to take responsibility 
-                        for building or extending your software solution, or you need to bootstrap your Data Analytics and 
-                        Business Intelligence journey with key technical support, <a href="#contact">contact me</a>.
-                    </p>
-                  </div>
-                </div>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amedu Paul Stephen - AI & Data Science Consultant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         
-        </section>
-
-        <section id="skills" >
-            <div class="text-center py-3">
-                <h2 class="py-2">Skills & Tools</h2>
-                <div class="mx-auto heading-line"></div>
-                <p class="py-1">Here are some the skills, tools and technologies I use to bring your products to life:</p>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background-color: #ffffff;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3rem 0;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+        
+        .subheadline {
+            font-size: 1.25rem;
+            color: #64748b;
+            margin-bottom: 2.5rem;
+            font-weight: 400;
+        }
+        
+        .body-content {
+            margin-bottom: 2.5rem;
+        }
+        
+        .body-content p {
+            margin-bottom: 1.25rem;
+        }
+        
+        .interests {
+            margin-top: 1.5rem;
+        }
+        
+        .interests ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .interests li {
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+        
+        .interests li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #64748b;
+            font-weight: bold;
+        }
+        
+        .cta-section {
+            margin: 3rem 0;
+            padding-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .cta-item {
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
+        }
+        
+        .cta-item .arrow {
+            color: #3b82f6;
+            margin-right: 0.5rem;
+        }
+        
+        .cta-item .label {
+            font-weight: 500;
+            color: #1a1a1a;
+        }
+        
+        .cta-item .value {
+            color: #64748b;
+        }
+        
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e2e8f0;
+            color: #94a3b8;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        
+        @media (max-width: 640px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .container {
+                padding: 1.5rem 0;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            .subheadline {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI & Data Science Consultant | IT Advisor</h1>
+            <p class="subheadline">Practical, business-led adoption of AI and data science</p>
+        </header>
+        
+        <main class="body-content">
+            <p>I am a senior IT leader now focused on AI and data science advisory work.</p>
+            
+            <p>My perspective is shaped by years of executive responsibility for technology, delivery, and organizational change. Rather than focusing on tools or hype, I work at the level where strategy, data, and decision-making meet.</p>
+            
+            <div class="interests">
+                <p>My current areas of interest include:</p>
+                <ul>
+                    <li>AI and data science strategy for established organizations</li>
+                    <li>Identifying realistic, high-value use cases</li>
+                    <li>Organizational readiness and executive understanding of AI</li>
+                    <li>Translating technical capability into business outcomes</li>
+                </ul>
             </div>
-            <div class="container">
-                <div class="row pb-3">
-                    <div class="col-md-8 col-12">
-                      <h4 class="text-center py-1">I am great at:</h4>
-                      <ul>
-                        <li class="py-1">
-                            Product Lifecycle Management, helping cross-functional teams to collaborate around 
-                            a common vision and modern delivery processes to build and ship sustainable, 
-                            high quality software products.
-                        </li>
-                        <li class="py-1">
-                            Creating Data Strategies, Data Pipelines, Business Intelligence Dashboards and Custom Predictive Machine Learning models 
-                            to help organizations make Analytics and BI an integral part of their business process and governance.
-                        </li>
-                        <li class="py-1">
-                            Clear and accurate domain-driven design leading to fewer iterations, faster time to market and 
-                            successful adoption.
-                        </li>
-                        <li class="py-1">
-                            Well-structured database schema designs that are highly performant and evolve 
-                            gracefully with new requirements.
-                        </li>
-                        <li class="py-1">
-                            Test Driven Development (TDD) process that leaves you with a comprehensive test 
-                            suite so you can extend and refactor your application with confidence.
-                        </li>
-                        <li class="py-1">
-                          Using Ruby on Rails and other web technologies to create highly scalable and maintainable 
-                          APIs and web/mobile applications, that work great now and into the future.
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-4 col-12">
-                        <h4 class="text-center py-1">My Stack</h4>
-                        <div class="row box-container">
-                            <div class="col-md-3 col-4">
-                                <div id="rails"><img alt="Rails" title="Rails" width="50" src="img/rails.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="html5"><img alt="HTML 5" title="HTML 5" width="70" src="img/html5.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="css3"><img alt="CSS 3" title="CSS 3" width="70" src="img/css3.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="javascript"><img alt="Javascript" title="Javascript" width="50" src="img/javascript.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="postgres"><img alt="Postgres" title="Postgres" width="50" src="img/postgres.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="git"><img alt="Git" title="Git" width="70" src="img/git.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="vscode"><img alt="Vscode" title="Vscode" width="50" src="img/vscode.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="heroku"><img alt="Heroku" title="Heroku" width="50" src="img/heroku.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="aws"><img alt="AWS" title="AWS" width="50" src="img/aws.png" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="powerbi"><img alt="Power BI" title="Power BI" width="80" src="img/powerbi.jpg" /></div>
-                            </div>
-                            <div class="col-md-3 col-4">
-                                <div id="knime"><img alt="KNIME" title="KNIME" width="80" src="img/knime_logo.png" /></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
+            <p>This site is intentionally minimal while I consolidate my advisory focus.</p>
+            
+            <p>I share professional commentary and engage with peers primarily on LinkedIn.</p>
+        </main>
+        
+        <section class="cta-section">
+            <div class="cta-item">
+                <span class="arrow">→</span>
+                <span class="label">LinkedIn:</span>
+                <span class="value">linkedin.com/in/amedupaulstephen</span>
             </div>
-        </section>
-
-        <!-- My Work Start  -->
-        <section class="portfolio bg-light" id="projects">
-            <div class="text-center py-5">
-                <h2 class="py-2">My Work</h2>
-                <div class="mx-auto heading-line"></div>
-                <p class="py-1">Some of the stuff I lead, designed or built</p>
-            </div>
-            <div class="container">
-                <div class="row pb-3">
-                    <div class="item features-image сol-12 col-md-6 col-lg-4 active">
-                        <div class="item-wrapper">
-                            <div class="item-img">
-                                <img src="img/nucarepath-app.png">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style"><strong>Online Healthcare Marketplace</strong></h5>
-                                <p class="mbr-text mbr-fonts-style mt-3">
-                                    Built the SaaS-enabled Online Healthcare Marketplace with Rails 5.2, for a 
-                                    pre-seed stage startup aiming to provide digitization and marketing services 
-                                    for local healthcare providers, and to empower self-pay Patients in Nigeria
-                                    to shop around for quality care that fits their budget
-                                </p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="https://nucarepath-ng.herokuapp.com/" target="blank" class="btn btn-primary">Visit site</a>
-                            </div>
-                        </div>
-                    </div><div class="item features-image сol-12 col-md-6 col-lg-4">
-                        <div class="item-wrapper">
-                            <div class="item-img">
-                                <img src="img/ipnx-careers-site.png">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style"><strong>ipNX Career Site</strong></h5>
-                                <p class="mbr-text mbr-fonts-style mt-3">
-                                    Built the ipNX Recruitment Portal in Ruby on Rails 4.2 for the HR Function to manage 
-                                    the whole candidate selection and vacancy tracking process. The site features an admin 
-                                    area to manage job vacancies and other site content, a front end for prospective job seekers 
-                                    to know more about ipNX, find available job offerings and apply online
-                                </p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="https://careers.ipnxnigeria.net/" target="blank" class="btn btn-primary">Visit site</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item features-image сol-12 col-md-6 col-lg-4">
-                        <div class="item-wrapper">
-                            <div class="item-img">
-                                <img src="img/ipnx-self-service-portal.png">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style"><strong>ipNX Self-Service Portal</strong></h5>
-                                <p class="mbr-text mbr-fonts-style mt-3">
-                                    Deliver project oversight, architectural review, and Q&A evaluations of blueprint, 
-                                    design, and development for ipNX Self-Service Portal, featuring a web interface built 
-                                    with Ruby on Rails 4.2, and complex integrations with the billing system, ticketing system 
-                                    and network service elements like the captive portal, TR69, etc
-                                </p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="https://self-service.ipnxnigeria.net/" target="blank" class="btn btn-primary">Visit site</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item features-image сol-12 col-md-6 col-lg-4">
-                        <div class="item-wrapper">
-                            <div class="item-img">
-                                <img src="img/ipnx-wifi-portal.png">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style"><strong>ipNX WiFi Portal</strong></h5>
-                                <p class="mbr-text mbr-fonts-style mt-3">
-                                    Deliver project oversight, architectural review, and Q&A evaluations of blueprint, 
-                                    design, and development for ipNX Public WiFi Portal, featuring a web interface built 
-                                    with PHP, and integrations with Interswitch payment gateway and network service elements 
-                                    like FreeRadius server and the Ruckus WiFi controller
-                                </p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="https://wifi.ipnxnigeria.net/" target="blank" class="btn btn-primary">Visit site</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item features-image сol-12 col-md-6 col-lg-4">
-                        <div class="item-wrapper">
-                            <div class="item-img">
-                                <img src="img/ipnxtp-site.png">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style"><strong>ipNX Telepresence</strong></h5>
-                                <p class="mbr-text mbr-fonts-style mt-3">
-                                    Built the iPNX Telepresence web app in Ruby on Rails 3.2 to provide virtual 
-                                    meeting services to individuals and corporate organizations in Nigeria. The 
-                                    site features responsive web design, admin panel for back-end operations, 
-                                    in-built billing module, and interfaces to Paypal and Interswitch payment 
-                                    gateways for online payments, to Seevogh videoconferencing platform for 
-                                    virtual meetings, and to twilio for mobile phone verification via SMS.
-                                </p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="http://web.archive.org/web/20161021005006/https://www.ipnxtp.net/" target="blank" class="btn btn-primary">Visit site</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item features-image сol-12 col-md-6 col-lg-4">
-                        <div class="item-wrapper">
-                            <div class="item-img">
-                                <img src="img/ipnx-corporate-site.png">
-                            </div>
-                            <div class="item-content">
-                                <h5 class="item-title mbr-fonts-style"><strong>ipNX Corporate Website</strong></h5>
-                                <p class="mbr-text mbr-fonts-style mt-3">
-                                    Built the revamped ipNX corporate website in Ruby on Rails 4.2, featuring a custom content 
-                                    management system (CMS) for backend administration and interactive coverage map using 
-                                    google maps, for fiber and radio coverage
-                                </p>
-                            </div>
-                            <div class="mbr-section-btn item-footer mt-2">
-                                <a href="https://www.ipnxnigeria.net/" target="blank" class="btn btn-primary">Visit site</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
+            <div class="cta-item">
+                <span class="arrow">→</span>
+                <span class="label">Contact:</span>
+                <span class="value">amedupaul.stephen@gmail.com</span>
             </div>
         </section>
         
-		<!-- My Work Ends  -->
-
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="text-center py-5">
-                    <h2 class="py-3">Let's build something great</h2>
-                    <div class="mx-auto heading-line"></div>
-                    <p class="py-1">
-                      I am always interested in working with forward-thinking people who want to make meaningful impact
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h4 class="text-center py-1">My Work Process</h4>
-                        <div class="stepwise justify-content-md-center">
-                            <ul>
-                                <li>
-                                    <h5><span>#01.</span> Discover</h5>
-                                    <p>
-                                      Get an understanding of what you want. Conduct user research to identify the problem you want to solve.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5><span>#02.</span> Strategize</h5>
-                                    <p>
-                                      Figure out and prioritize the core features of your digital product based on what your users actually need
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5><span>#03.</span> Design</h5>
-                                    <p>
-                                      Work with you to design interactions that are easy to use and intuitive for your users
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5><span>#04.</span> Build, test & deploy</h5>
-                                    <p>
-                                      Using agile product development mythology, create iteration after iteration featuring your most 
-                                      critical business concerns
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <h4 class="text-center py-1">Get In Touch</h4>
-                        <div class="box-container">
-                            <form action="https://formspree.io/f/xvoyznbp" method="POST">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="name">Name*</label>
-                                            <input id="name" name="name" class="form-control" type="text" placeholder="Your full name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="email">Email*</label>
-                                            <input id="email" name="email" class="form-control" type="email" placeholder="Your email address">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="phone">Phone</label>
-                                            <input id="phone" name="phone" class="form-control" type="text" placeholder="Your phone number">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="message">Message*</label>
-                                            <textarea id="message" name="message" class="form-control" placeholder="Your message" rows="5"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn btn-lg btn-outline-secondary">Submit</button>
-                                    </div>
-                                    <input type="hidden" name="_subject" id="email-subject" value="Personal Site - Contact Form Submission">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-        <footer class="footer mt-5">
-            <div class="row mb-3">
-                <div class="col-12">
-                    <h5>Amedu Paul Stephen</h5>
-                </div>
-                <div class="col-12">
-                    <div class="soc">
-                        <a
-                            title="linkedin profile link"
-                            target="_blank"
-                            href="https://www.linkedin.com/in/amedupaulstephen/"
-                        >
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </div>
-                    <div class="soc">
-                        <a title="Github profile Link" target="_blank" href="https://github.com/amedustephen">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="soc">
-                        <a
-                            title="Twitter profile link"
-                            target="_blank"
-                            href="https://twitter.com/AmeduStephen/"
-                        >
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright py-3 text-muted">
-                <p>Copyright &copy; 2022 All rights reserved</p>
-            </div>
+        <footer>
+            © Amedu Paul Stephen — Independent advisor
         </footer>
-
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/fontawesome.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/main.js"></script>
-    </body>
+    </div>
+</body>
 </html>
